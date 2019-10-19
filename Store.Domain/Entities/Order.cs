@@ -13,7 +13,7 @@ namespace Store.Domain.Entities
                 new Contract()
                     .Requires()
                     .IsNotNull(customer, "Customer", "Cliente inválido")
-            );
+                    );
 
             Customer = customer;
             Date = DateTime.Now;

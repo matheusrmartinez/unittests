@@ -6,10 +6,9 @@ namespace Store.Domain.Entities
     {
         public Discount(decimal amount, DateTime expireDate)
         {
-            Amount = amount;
             ExpireDate = expireDate;
+            Amount = amount;
         }
-
         public decimal Amount { get; private set; }
         public DateTime ExpireDate { get; private set; }
 

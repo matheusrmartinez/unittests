@@ -290,3 +290,6 @@ __pycache__/
 Store.Tests/Store.Tests.csproj
 Store.Domain/Store.Domain.csproj
 Store.sln
+
+.vscode/launch.json
+.vscode/tasks.json
